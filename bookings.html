@@ -10,8 +10,6 @@
         body {
  background-image: url("https://github.com/JRiedel6/cultivatedtattoo/blob/main/CT.jpg?raw=true");
       background-size: cover;
-      background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
-      background: rgba(0, 0, 0, 0.5);
 }
     
  a {
@@ -31,7 +29,14 @@
          font-size: 60px;
          font-family: 'The Nautigal', cursive;
          color: #FFFFFF;
+         background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+         background: rgba(0, 0, 0, 0.5);
 }
+  
+  .div1 {
+      background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+      background: rgba(0, 0, 0, 0.5);
+  }
   
   h2, p {
          color: #FFFFFF;
@@ -52,10 +57,12 @@
       <div><a href="location.html">Location</a></div>
     </div>
     
+    <div class="div1">
     <h2>Bookings</h2>
     <p>For all bookings, please email<a href="mailto:jackstapledontattoos@gmail.com">JackStapledonTattoos@gmail.com</a>. 
     <br>Emails are responded to on Sundays and Wednesdays.
     <br>Please include a description of what you are wanting tattooed and any reference drawings/photos.</p>
+    </div>
     
     
   </body>
